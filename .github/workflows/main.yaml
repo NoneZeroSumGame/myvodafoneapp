@@ -13,7 +13,7 @@ jobs:
     steps:
       - run: |
           echo "test Job is going on"
-          sleep 10
+          sleep 20
   oast-retire:
     runs-on: ubuntu-latest
     needs: test
